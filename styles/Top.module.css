@@ -1,0 +1,49 @@
+.top{
+  display: flex;
+  height: 45px;
+  justify-content: space-around; 
+  background: #3c4049 ;
+  border-top:3px solid #EC7200;
+}
+.top__container{
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+}
+.social__brands{
+  color:#fafafa;
+  width: 9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 0;
+
+}
+.contacts{
+  color:#fafafa;
+  width: 9rem;
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+  white-space: nowrap;
+  margin-right: 9rem;
+}
+.line__seprator{
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
+}
+.contacts a{
+  font-size: 13px;
+  font-weight: 400;
+}
+.contacts__icons{
+  height: 14px;
+  margin-right: 0.3rem;
+}
+@media (max-width:1280px) {
+ .top__container{
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
+}
+}
